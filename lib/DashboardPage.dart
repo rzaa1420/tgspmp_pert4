@@ -16,13 +16,13 @@ class DashboardPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Selamat datang di Dashboard!"),
+            Text("Welcome to Dashboard!"),
             SizedBox(height: 16),
             Text("Username: $username"),
             Text("Password: $password"),
             SizedBox(height: 16),
             ElevatedButton(
-              child: Text('Kembali ke Home'),
+              child: Text('Back to Home'),
               onPressed: () {
                 Navigator.pop(context);
               },
